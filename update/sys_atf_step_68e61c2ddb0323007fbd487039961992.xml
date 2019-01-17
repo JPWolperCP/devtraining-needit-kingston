@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Log: User: {{Step 1: Impersonate.User}}&#13;
+User ID: {{Step 1: Impersonate.User.User ID}}&#13;
+User Email: {{Step 1: Impersonate.User.Email}}&#13;
+User Date format: {{Step 1: Impersonate.User.Date format}}&#13;
+User Created (should be date): {{Step 1: Impersonate.User.Created}}&#13;
+User Name: {{Step 1: Impersonate.User.Name}}&#13;
+User Title: {{Step 1: Impersonate.User.Title}}&#13;
+User Company: {{Step 1: Impersonate.User.Company}}&#13;
+User Company Name: {{Step 1: Impersonate.User.Company.Name}}&#13;
+User Location: {{Step 1: Impersonate.User.Location}}&#13;
+User Department: {{Step 1: Impersonate.User.Department}}</description>
+        <display_name>Log</display_name>
+        <inputs/>
+        <inputs/>
+        <order>2</order>
+        <step_config display_value="Log">58ab71985f30220012b44adb7f46661e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-16 15:15:23</sys_created_on>
+        <sys_id>68e61c2ddb0323007fbd487039961992</sys_id>
+        <sys_mod_count>48</sys_mod_count>
+        <sys_name>Log</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_68e61c2ddb0323007fbd487039961992</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-17 18:13:17</sys_updated_on>
+        <table/>
+        <test display_value="When needed - Future">8bb6d82ddb0323007fbd487039961936</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=68e61c2ddb0323007fbd487039961992"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>68e61c2ddb0323007fbd487039961992</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-16 15:15:23</sys_created_on>
+        <sys_id>28e61c2ddb0323007fbd487039961993</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-17 15:32:42</sys_updated_on>
+        <value>User: {{step['e4e6d82ddb0323007fbd487039961902'].user}}&#13;
+User ID: {{step['e4e6d82ddb0323007fbd487039961902'].user.user_name}}&#13;
+User Email: {{step['e4e6d82ddb0323007fbd487039961902'].user.email}}&#13;
+User Date format: {{step['e4e6d82ddb0323007fbd487039961902'].user.date_format}}&#13;
+User Created (should be date): {{step['e4e6d82ddb0323007fbd487039961902'].user.sys_created_on}}&#13;
+User Name: {{step['e4e6d82ddb0323007fbd487039961902'].user.name}}&#13;
+User Title: {{step['e4e6d82ddb0323007fbd487039961902'].user.title}}&#13;
+User Company: {{step['e4e6d82ddb0323007fbd487039961902'].user.company}}&#13;
+User Company Name: {{step['e4e6d82ddb0323007fbd487039961902'].user.company.name}}&#13;
+User Location: {{step['e4e6d82ddb0323007fbd487039961902'].user.location}}&#13;
+User Department: {{step['e4e6d82ddb0323007fbd487039961902'].user.department}}</value>
+        <variable display_value="">523c79985f30220012b44adb7f46663a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=68e61c2ddb0323007fbd487039961992"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log</field>
+        <id>68e61c2ddb0323007fbd487039961992</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-16 15:25:03</sys_created_on>
+        <sys_id>da19dc6ddb0323007fbd4870399619e3</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-17 15:32:42</sys_updated_on>
+        <table>var__m_atf_input_variable_58ab71985f30220012b44adb7f46661e</table>
+        <value>User: {{step['e4e6d82ddb0323007fbd487039961902'].user}}&#13;
+User ID: {{step['e4e6d82ddb0323007fbd487039961902'].user.user_name}}&#13;
+User Email: {{step['e4e6d82ddb0323007fbd487039961902'].user.email}}&#13;
+User Date format: {{step['e4e6d82ddb0323007fbd487039961902'].user.date_format}}&#13;
+User Created (should be date): {{step['e4e6d82ddb0323007fbd487039961902'].user.sys_created_on}}&#13;
+User Name: {{step['e4e6d82ddb0323007fbd487039961902'].user.name}}&#13;
+User Title: {{step['e4e6d82ddb0323007fbd487039961902'].user.title}}&#13;
+User Company: {{step['e4e6d82ddb0323007fbd487039961902'].user.company}}&#13;
+User Company Name: {{step['e4e6d82ddb0323007fbd487039961902'].user.company.name}}&#13;
+User Location: {{step['e4e6d82ddb0323007fbd487039961902'].user.location}}&#13;
+User Department: {{step['e4e6d82ddb0323007fbd487039961902'].user.department}}</value>
+    </sys_element_mapping>
+</record_update>

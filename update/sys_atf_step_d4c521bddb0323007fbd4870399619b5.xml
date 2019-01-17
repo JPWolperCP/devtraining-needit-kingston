@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Log: Test of When needed with a date in the future should succeed. Record inserted by test: {{Step 3: Record Insert.Record}}&#13;
+Table: {{Step 3: Record Insert.Table}}&#13;
+&#13;
+Record Query&#13;
+First record: {{Step 5: Record Query.First record}}&#13;
+Table: {{Step 5: Record Query.table}}</description>
+        <display_name>Log</display_name>
+        <inputs/>
+        <inputs/>
+        <order>13</order>
+        <step_config display_value="Log">58ab71985f30220012b44adb7f46661e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-17 15:38:27</sys_created_on>
+        <sys_id>d4c521bddb0323007fbd4870399619b5</sys_id>
+        <sys_mod_count>47</sys_mod_count>
+        <sys_name>Log</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_d4c521bddb0323007fbd4870399619b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-17 18:13:17</sys_updated_on>
+        <table/>
+        <test display_value="When needed - Future">8bb6d82ddb0323007fbd487039961936</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=d4c521bddb0323007fbd4870399619b5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>d4c521bddb0323007fbd4870399619b5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-17 15:38:27</sys_created_on>
+        <sys_id>d0c521bddb0323007fbd4870399619b6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-17 18:00:40</sys_updated_on>
+        <value>Test of When needed with a date in the future should succeed. Record inserted by test: {{step['10c521bddb0323007fbd4870399619a0'].record_id}}&#13;
+Table: {{step['10c521bddb0323007fbd4870399619a0'].table}}&#13;
+&#13;
+Record Query&#13;
+First record: {{step['33407575db4323007fbd4870399619c4'].first_record}}&#13;
+Table: {{step['33407575db4323007fbd4870399619c4'].table}}</value>
+        <variable display_value="">523c79985f30220012b44adb7f46663a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d4c521bddb0323007fbd4870399619b5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log</field>
+        <id>d4c521bddb0323007fbd4870399619b5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-17 15:44:59</sys_created_on>
+        <sys_id>0447adbddb0323007fbd487039961908</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-17 18:00:40</sys_updated_on>
+        <table>var__m_atf_input_variable_58ab71985f30220012b44adb7f46661e</table>
+        <value>Test of When needed with a date in the future should succeed. Record inserted by test: {{step['10c521bddb0323007fbd4870399619a0'].record_id}}&#13;
+Table: {{step['10c521bddb0323007fbd4870399619a0'].table}}&#13;
+&#13;
+Record Query&#13;
+First record: {{step['33407575db4323007fbd4870399619c4'].first_record}}&#13;
+Table: {{step['33407575db4323007fbd4870399619c4'].table}}</value>
+    </sys_element_mapping>
+</record_update>
